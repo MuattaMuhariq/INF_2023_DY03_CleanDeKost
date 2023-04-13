@@ -22,10 +22,10 @@
                           <a href="/aboutus" class="text-lg hover:text-[#426A4E] duration-500">About Us</a>
                         </li>
                         <li class="mx-4 my-8 ">
-                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Katalog</a>
+                          <a href="/katalog" class="text-lg hover:text-[#426A4E] duration-500">Katalog</a>
                         </li>
                         <li class="mx-4 my-8 ">
-                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Halaman Utama</a>
+                          <a href="/dashboard" class="text-lg hover:text-[#426A4E] duration-500">Halaman Utama</a>
                         </li>
                 </div>
             </div>
