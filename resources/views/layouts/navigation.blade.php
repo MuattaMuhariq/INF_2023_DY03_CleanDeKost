@@ -1,20 +1,32 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-sky-600 pt-4 pb-1">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
+                <div class="shrink-0 flex items-center bg-sky-600">
                     <a href="{{ route('dashboard') }}">
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
                 </div>
 
-                <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
+                    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-sky-600  left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                        <li class="mx- my-8 ">
+                          <a href="/informasitagihan" class="text-lg hover:text-[#426A4E] duration-500">Order</a>
+                        </li>
+                        <li class="mx-8 my-8 ">
+                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">History</a>
+                        </li>
+                        <li class="mx-4 my-8 ">
+                          <a href="/aboutus" class="text-lg hover:text-[#426A4E] duration-500">About Us</a>
+                        </li>
+                        <li class="mx-4 my-8 ">
+                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Katalog</a>
+                        </li>
+                        <li class="mx-4 my-8 ">
+                          <a href="#" class="text-lg hover:text-[#426A4E] duration-500">Halaman Utama</a>
+                        </li>
                 </div>
             </div>
 
