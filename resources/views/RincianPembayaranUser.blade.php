@@ -1,50 +1,50 @@
 <x-app-layout>
 <div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
+
+
     
-<div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
-  <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-    <div class="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow rounded-3xl sm:p-10">
-      <div class="max-w-md mx-auto">
-        <div class="flex items-center space-x-5">
-          <div class="h-14 w-14 bg-blue-200 rounded-full flex flex-shrink-0 justify-center items-center text-blue-500 text-2xl font-mono">U</div>
-          <div class="block pl-2 font-semibold text-xl self-start text-gray-700">
-            <h2 class="leading-relaxed">Upload Bukti Pembayaran</h2>
-            <p class="text-sm text-gray-500 font-normal leading-relaxed">Silakan upload bukti pembayaran Anda disini.</p>
-          </div>
+    <div class="container mx-auto ml-40">
+        <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h1 class="text-2xl text-white font-bold mb-4 ml-40">Rincian Pembayaran</h1>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-full lg:w-1/2 px-2 mb-4">
+                <div class="container mx-auto ml-40">
+                    <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
+                        <p class="mb-2"><span class="font-bold">Nama:</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Masukkan nama Anda">
+                        <p class="mb-2"><span class="font-bold">Jadwal Pembersihan:</span>
+                        <input id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                        <p class="mb-2"><span class="font-bold">Total:</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total layanan kebersihan Anda">
+                        <p class="mb-2"><span class="font-bold">Alamat:</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda">
+                        <p class="mb-2"><span class="font-bold">Total Diskon Sampah:</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total diskon untuk layanan kebersihan Anda">
+                        <p class="mb-2"><span class="font-bold">Total Harga:</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total harga layanan kebersihan">
+                        <div class="mb-4">
+
+            <span class="text-black font-bold">Metode Pembayaran</span>
+            <div class="mt-2">
+                <label class="inline-flex items-center">
+                    <input type="radio" class="form-radio text-blue-500" name="metode-pembayaran" value="transfer-bank">
+                    <span class="ml-2">Transfer Bank</span>
+                </label>
+                <label class="inline-flex items-center ml-6">
+                    <input type="radio" class="form-radio text-blue-500" name="metode-pembayaran" value="COD">
+                    <span class="ml-2">COD</span>
+                </label>
+            </div>
         </div>
-        <div class="divide-y divide-gray-200">
-          <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-            <div class="flex flex-col">
-              <label class="leading-loose">Jumlah Pembayaran</label>
-              <input type="number" class="form-input w-full" placeholder="Masukkan jumlah pembayaran">
-            </div>
-            <div class="flex flex-col">
-              <label class="leading-loose">Upload Bukti Pembayaran</label>
-              <div class="relative border-dotted h-48 rounded-lg border-dashed border-2 border-blue-700 bg-gray-100 flex justify-center items-center">
-                <div class="absolute">
-                  <div class="flex flex-col items-center">
-                    <i class="fa fa-cloud-upload fa-3x text-blue-700"></i>
-                    <span class="block text-gray-400 font-normal">Attach your files here</span>
-                    <span class="block text-gray-400 font-normal">or</span>
-                    <span class="block text-blue-700 font-normal">Drag & Drop</span>
-                  </div>
-                </div>
-                <input type="file" class="h-full w-full opacity-0" name="attachment">
-              </div>
-            </div>
-          </div>
-          <div class="pt-4 flex items-center space-x-4">
-            <button class="bg-blue-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Upload Bukti Pembayaran</button>
-          </div>
-       
 
-<div class="my-4 bg-gray-100 rounded-lg p-4">
-  <p class="text-gray-800 font-semibold">Bukti Pembayaran</p>
-  <p class="text-gray-600">Terima kasih telah melakukan pembayaran</p>
-</div>
+                
+            <div class="flex justify-center">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                Next
+            </button>
 
-<!--Footer container-->
+          <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
@@ -110,3 +110,4 @@
   </div>
 </footer>
 </x-app-layout>
+
