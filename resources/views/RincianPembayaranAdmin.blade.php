@@ -2,7 +2,6 @@
 <div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
-
   <!-- rincian pembayaran admin -->    
 <div class="container mx-auto ml-40">
         <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -25,7 +24,7 @@
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
                         <p class="mb-2"><span class="font-semibold">Besi :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
-</div>
+  </div>
                         <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
                        
@@ -33,7 +32,7 @@
                         <div class="mb-4">
                             
                         <div class="flex justify-center">
-        
+        <!--button Update harga-->
             <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                 UPDATE HARGA
             </button>
