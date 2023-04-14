@@ -3,7 +3,7 @@
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
 
-    
+    <!-- rincian pembayaran user -->   
     <div class="container mx-auto ml-40">
         <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h1 class="text-2xl text-white font-bold mb-4 ml-40">Rincian Pembayaran</h1>
