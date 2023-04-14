@@ -1,5 +1,5 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
   <div class="overflow-hidden bg-white sm:rounded-xl relative w-5/6 ml-40 mb-60 drop-shadow-2xl container px-4 mx-auto">
