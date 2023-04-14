@@ -1,9 +1,9 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
 
-    
+  <!-- rincian pembayaran admin -->    
 <div class="container mx-auto ml-40">
         <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h1 class="text-2xl text-white
