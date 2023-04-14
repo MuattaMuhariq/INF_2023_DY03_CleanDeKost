@@ -32,6 +32,14 @@ Route::get('/aboutus', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard');
+});
+
+Route::get('/katalog', function () {
+    return view('Katalog');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {

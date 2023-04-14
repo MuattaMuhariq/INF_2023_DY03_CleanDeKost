@@ -11,7 +11,7 @@
             class="h-fit w-fit flex items-center justify-center flex-col gap-2"
             >
             <img
-                src="Image/ilustrasi-botol-air-kemasan-istock_ratio-16x9.jpg"
+                src="Images/ilustrasi-botol-air-kemasan-istock_ratio-16x9.jpg"
                 class="ml-32 mt-24 h-52 w-80 object-cover"
             />
             <h1 class="ml-32 text-xl text-center font-bold text-putih">
@@ -22,7 +22,7 @@
                 class="w-fit h-fit flex items-center justify-center flex-col gap-2"
             >
             <img
-                src="Image/TIPS-Yuk-Manfaatkan-Botol-Kaca-untuk-4-Hal-Ini.jpg"
+                src="Images/TIPS-Yuk-Manfaatkan-Botol-Kaca-untuk-4-Hal-Ini.jpg"
                 class="ml-60 mt-24 h-52 w-80 object-cover"
                 />
                 <h1 class="ml-60 text-xl text-center font-bold text-putih">Botol Kaca <br />Rp. 300 /pcs</h1>
@@ -30,14 +30,14 @@
               <div
               class="w-fit h-fit flex items-center justify-center flex-col gap-2"
               >
-              <img src="Image/sampah k.jpg" class="ml-32 mt-24 h-52 w-80 object-cover" />
+              <img src="Images/sampah k.jpg" class="ml-32 mt-24 h-52 w-80 object-cover" />
               <h1 class="ml-32 text-xl font-bold text-center text-putih">Kertas <br />Rp. 5000 /kg</h1>
             </div>
           <div
             class="w-fit h-fit flex items-center justify-center flex-col gap-2"
           >
           <img
-          src="Image/besi.jpg" class="ml-60 mt-24 h-52 w-80 object-cover"/>
+          src="Images/besi.jpg" class="ml-60 mt-24 h-52 w-80 object-cover"/>
               <h1 class="ml-60 text-xl text-center font-bold text-putih">Besi <br />Rp.4000 /kg</h1>
           </div>
           </div>
