@@ -73,9 +73,9 @@
     </div>
 
     <div>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-10 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
+      <a href="/RincianPembayaranUser"> <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-10 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
         Pembayaran
-      </button>
+      </button> </a>
     </div>
     </div>
 </div>
