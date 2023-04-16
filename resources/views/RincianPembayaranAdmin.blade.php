@@ -2,86 +2,43 @@
 <div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
-  <div class="overflow-hidden bg-white sm:rounded-xl relative w-5/6 ml-40 mb-60 drop-shadow-2xl container px-4 mx-auto">
-    <div class="sm:flex sm:items-center sm:justify-between">
-    <div class="mb-4">
-            <div class="flex items-center gap-x-3">
-                <h1 class="text-2xl font-bold mb-4">History Orderan</h1>
-        </div>
-    </div>
+  <!-- rincian pembayaran admin -->    
+<div class="container mx-auto ml-40">
+        <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h1 class="text-2xl text-white
+             font-bold mb-4 ml-40">Rincian Pembayaran</h1>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-full lg:w-1/2 px-2 mb-4">
+                <div class="container mx-auto ml-40">
+                  <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
+                        <p class="mb-2"><span class="font-semibold">Total Harga Awal :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                        <p class="mb-2"><span class="font-semibold">Diskon</span>
 
-    <div class="mt-6 md:flex md:items-center md:justify-between">
-        <div class="inline-flex overflow-hidden bg-white border divide-x rounded-lg dark:bg-gray-900 rtl:flex-row-reverse dark:border-gray-700 dark:divide-gray-700">
-            <a href="/history"><button class="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200  sm:text-sm dark:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
-                Diproses
-            </button></a>
-        
-
-            <button class="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200 bg-gray-100 sm:text-sm dark:hover:bg-gray-800 dark:text-gray-300">
-                Selesai
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+                        <p class="mb-2"><span class="font-semibold">Botol Plastik :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah (pcs)">
+                        <p class="mb-2"><span class="font-semibold">Botol Kaca :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah  (pcs)">
+                        <p class="mb-2"><span class="font-semibold">Kertas :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+                        <p class="mb-2"><span class="font-semibold">Besi :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+  </div>
+                        <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                       
+                        
+                        <div class="mb-4">
+                            
+                        <div class="flex justify-center">
+        <!--button Update harga-->
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                UPDATE HARGA
             </button>
-        </div>
-        </div>
     </div>
 
-    <div class="flex flex-col mt-6">
-        <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                <div class="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg">
-                    <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-                        <thead class="bg-gray-50 dark:bg-gray-800">
-                            <tr>
-                                <th scope="col" class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    <button class="flex items-center gap-x-3 focus:outline-none">
-                                        <span>Status</span>
-                                    </button>
-                                </th>
-
-                                <th scope="col" class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    Hari
-                                </th>
-
-                                <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    Tanggal
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
-                        <tr>
-                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
-                                    <div>
-                                       selsai
-                                    </div>
-                                </td>
-                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
-                                    <div>
-                                        Selasa
-                                    </div>
-                                </td>
-                                <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                    <div>
-                                        02/02/2023
-                                    </div>
-                                </td>
-                            </tr>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-10 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
-        Next
-      </button>
-    </div>
-    </div>
-</div>
-</div>
-</div>
-<!--Footer container-->
+       <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
