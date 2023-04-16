@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-// menampilkan page welcome
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -30,14 +30,37 @@ Route::get('/aboutus', function () {
     return view('aboutus');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+//Route::get('/dashboard', function () {
+   // return view('dashboard');
+//});
 
 Route::get('/katalog', function () {
     return view('Katalog');
 });
 
+Route::get('/historyproses', function () {
+    return view('historyproses');
+});
+
+Route::get('/historyselesai', function () {
+    return view('historyselesai');
+});
+Route::get('/adminpesananmasuk', function () {
+    return view('adminpesananmasuk');
+});
+Route::get('/order', function () {
+    return view('reservasi');
+});
+
+Route::get('/RincianPembayaranAdmin', function () {
+    return view('RincianPembayaranAdmin');
+});
+
+Route::get('/RincianPembayaranUser', function () {
+    return view('RincianPembayaranUser');
+});
+
+// ini menampilksn dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
