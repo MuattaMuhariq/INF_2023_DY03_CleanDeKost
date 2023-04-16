@@ -52,6 +52,14 @@ Route::get('/order', function () {
     return view('reservasi');
 });
 
+Route::get('/RincianPembayaranAdmin', function () {
+    return view('RincianPembayaranAdmin');
+});
+
+Route::get('/RincianPembayaranUser', function () {
+    return view('RincianPembayaranUser');
+});
+
 // ini menampilksn dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
