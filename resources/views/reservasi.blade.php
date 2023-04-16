@@ -1,85 +1,46 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
-  <div class="overflow-hidden bg-white sm:rounded-xl relative w-5/6 ml-40 mb-60 drop-shadow-2xl container px-4 mx-auto">
-    <div class="sm:flex sm:items-center sm:justify-between">
-    <div class="mb-4">
-            <div class="flex items-center gap-x-3">
-                <h1 class="text-2xl font-bold mb-4">History Orderan</h1>
+  <!-- form reservasi -->
+    <div class="overflow-hidden bg-gray-100 sm:rounded-xl relative w-1/2 ml-50% mb-40 drop-shadow-2xl container px-4 mx-auto">
+        <div class="container mx-auto">
+                <h1 class="text-2xl font-bold mb-4">Form Reservasi Layanan Pembersihan</h1>
         </div>
-    </div>
-
-    <div class="mt-6 md:flex md:items-center md:justify-between">
-        <div class="inline-flex overflow-hidden bg-white border divide-x rounded-lg dark:bg-gray-900 rtl:flex-row-reverse dark:border-gray-700 dark:divide-gray-700">
-            <a href="/historyproses"><button class="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200  sm:text-sm dark:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
-                Diproses
-            </button></a>
-        
-
-            <button class="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200 bg-gray-100 sm:text-sm dark:hover:bg-gray-800 dark:text-gray-300">
-                Selesai
-            </button>
-        </div>
-        </div>
-    </div>
-
-    <div class="flex flex-col mt-6">
-        <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                <div class="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg">
-                    <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-                        <thead class="bg-gray-50 dark:bg-gray-800">
-                            <tr>
-                                <th scope="col" class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    <button class="flex items-center gap-x-3 focus:outline-none">
-                                        <span>Status</span>
-                                    </button>
-                                </th>
-
-                                <th scope="col" class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    Hari
-                                </th>
-
-                                <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                    Tanggal
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
-                        <tr>
-                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
-                                    <div>
-                                       selsai
-                                    </div>
-                                </td>
-                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
-                                    <div>
-                                        Selasa
-                                    </div>
-                                </td>
-                                <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                    <div>
-                                        02/02/2023
-                                    </div>
-                                </td>
-                            </tr>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="px-4 py-5 sm:px-6">
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="time and date">
+                    Waktu dan Tanggal Pengerjaan
+                 </label>
+            </div>
+            <div class="flex">
+                <div class="w-1/2 pr-2">
+                      <input id="time" type="time" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                 </div>
+                <div class="w-1/2 pl-2">
+                      <input id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2 pt-3" for="address">
+                  Alamat
+                </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan alamat tempat dibersihkan">
+             </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="message">
+                  Note
+                </label>
+                <textarea class="shadow appearance-none border rounded w-full py-5 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="3" placeholder="Masukkan bagian apa saja yang perlu dibersihkan"></textarea>
+            </div>
+            <div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
+                  Pesan
+                </button>
             </div>
         </div>
     </div>
-
-    <div>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-10 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
-        Next
-      </button>
-    </div>
-    </div>
-</div>
-</div>
+  </div>
 </div>
 <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
@@ -146,4 +107,5 @@
     >
   </div>
 </footer>
+
 </x-app-layout>
