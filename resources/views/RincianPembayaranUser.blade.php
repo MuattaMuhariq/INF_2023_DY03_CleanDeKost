@@ -13,8 +13,6 @@
                     <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
                         <p class="mb-2"><span class="font-bold">Nama:</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Masukkan nama Anda">
-                        <p class="mb-2"><span class="font-bold">Jadwal Pembersihan:</span>
-                        <input id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                         <p class="mb-2"><span class="font-bold">Total:</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total layanan kebersihan Anda">
                         <p class="mb-2"><span class="font-bold">Alamat:</span>
