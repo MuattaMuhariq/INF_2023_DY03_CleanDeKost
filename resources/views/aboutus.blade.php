@@ -24,8 +24,8 @@
                 <div class="w-full lg:w-8/12 lg:pt-8">
                     <div class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img class="md:block hidden" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Image" />
-                            <img class="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Image" />
+                            <img class="md:block hidden" src="Images/Futsal.jpeg" alt="Alexa featured Image" />
+                            <!-- <img class="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Image" /> -->
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Alexa</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
