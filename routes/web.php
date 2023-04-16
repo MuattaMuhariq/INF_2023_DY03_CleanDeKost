@@ -60,6 +60,10 @@ Route::get('/RincianPembayaranUser', function () {
     return view('RincianPembayaranUser');
 });
 
+Route::get('/BuktiPembayaranUser', function () {
+    return view('BuktiPembayaranUser');
+});
+
 // ini menampilksn dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
