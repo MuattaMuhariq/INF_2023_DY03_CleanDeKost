@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div>
+    <div class="mb-10">
 
     
     <form method="POST" action="{{ route('register') }}">
@@ -66,7 +66,7 @@
                 {{ __('Register') }}
             </x-primary-button>
         </div>
-        @include("profile.partials.Footer")
+        <!-- @include("profile.partials.Footer") -->
     </form>
     </div>
    
