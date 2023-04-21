@@ -60,8 +60,8 @@ Route::get('/RincianPembayaranUser', function () {
     return view('RincianPembayaranUser');
 });
 
-Route::get('/BuktiPembayaranUser', function () {
-    return view('BuktiPembayaranUser');
+Route::get('/BuktiPembayaran', function () {
+    return view('BuktiPembayaran');
 });
 
 // ini menampilksn dashboard
