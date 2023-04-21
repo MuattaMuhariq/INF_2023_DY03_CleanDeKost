@@ -1,50 +1,44 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
-    <!-- bukti pembayaran -->
-<div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
-  <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-    <div class="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow rounded-3xl sm:p-10">
-      <div class="max-w-md mx-auto">
-        <div class="flex items-center space-x-5">
-          <div class="h-14 w-14 bg-blue-200 rounded-full flex flex-shrink-0 justify-center items-center text-blue-500 text-2xl font-mono">U</div>
-          <div class="block pl-2 font-semibold text-xl self-start text-gray-700">
-            <h2 class="leading-relaxed">Upload Bukti Pembayaran</h2>
-            <p class="text-sm text-gray-500 font-normal leading-relaxed">Silakan upload bukti pembayaran Anda disini.</p>
-          </div>
-        </div>
-        <div class="divide-y divide-gray-200">
-          <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-            <div class="flex flex-col">
-              <label class="leading-loose">Jumlah Pembayaran</label>
-              <input type="number" class="form-input w-full" placeholder="Masukkan jumlah pembayaran">
-            </div>
-            <div class="flex flex-col">
-              <label class="leading-loose">Upload Bukti Pembayaran</label>
-              <div class="relative border-dotted h-48 rounded-lg border-dashed border-2 border-blue-700 bg-gray-100 flex justify-center items-center">
-                <div class="absolute">
-                  <div class="flex flex-col items-center">
-                    <i class="fa fa-cloud-upload fa-3x text-blue-700"></i>
-                    <span class="block text-gray-400 font-normal">Attach your files here</span>
-                    <span class="block text-gray-400 font-normal">or</span>
-                    <span class="block text-blue-700 font-normal">Drag & Drop</span>
-                  </div>
-                </div>
-                <input type="file" class="h-full w-full opacity-0" name="attachment">
-              </div>
-            </div>
-          </div>
-          <div class="pt-4 flex items-center space-x-4">
-            <button class="bg-blue-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Upload Bukti Pembayaran</button>
-          </div>
-       
 
-<div class="my-4 bg-gray-100 rounded-lg p-4">
-  <p class="text-gray-800 font-semibold">Bukti Pembayaran</p>
-  <p class="text-gray-600">Terima kasih telah melakukan pembayaran</p>
-</div>
+  <!-- rincian pembayaran admin -->    
+<div class="container mx-auto ml-40">
+        <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h1 class="text-2xl text-white
+             font-bold mb-4 ml-40">Rincian Pembayaran</h1>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-full lg:w-1/2 px-2 mb-4">
+                <div class="container mx-auto ml-40">
+                  <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
+                        <p class="mb-2"><span class="font-semibold">Total Harga Awal :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                        <p class="mb-2"><span class="font-semibold">Diskon</span>
 
-<!--Footer container-->
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+                        <p class="mb-2"><span class="font-semibold">Botol Plastik :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah (pcs)">
+                        <p class="mb-2"><span class="font-semibold">Botol Kaca :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah  (pcs)">
+                        <p class="mb-2"><span class="font-semibold">Kertas :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+                        <p class="mb-2"><span class="font-semibold">Besi :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+  </div>
+                        <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                       
+                        
+                        <div class="mb-4">
+                            
+                        <div class="flex justify-center">
+        <!--button Update harga-->
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                UPDATE HARGA
+            </button>
+    </div>
+
+       <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
