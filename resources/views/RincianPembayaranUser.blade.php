@@ -1,7 +1,6 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
-
 
     <!-- rincian pembayaran user -->   
     <div class="container mx-auto ml-40">
@@ -38,9 +37,11 @@
 
                 
             <div class="flex justify-center">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
                 Next
             </button>
+</div>
+</div>
 
           <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
