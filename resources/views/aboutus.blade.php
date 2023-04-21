@@ -33,9 +33,8 @@
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Tasya</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img class="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Image" />
-                            <img class="md:hidden block" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Liam</p>
+                            <img class="md:block hidden" src="Images/hadija.jpg" alt="Hadija featured Image" />
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Hadija</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
                             <img class="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured image" />
