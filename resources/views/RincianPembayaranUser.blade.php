@@ -4,7 +4,6 @@
 
     <!-- rincian pembayaran user -->   
     <div class="container mx-auto ml-40">
-        <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h1 class="text-2xl text-white font-bold mb-4 ml-40">Rincian Pembayaran</h1>
             <div class="flex flex-wrap -mx-2">
                 <div class="w-full lg:w-1/2 px-2 mb-4">
@@ -35,13 +34,18 @@
             </div>
         </div>
 
-                
+             <!-- Button yang merujuk ke BuktiPembayaran -->   
             <div class="flex justify-center">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                Next
+            <a href="/BuktiPembayaran"> <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
+                BUKTI PEMBAYARAN
             </button>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
+</div>
+
 
           <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
