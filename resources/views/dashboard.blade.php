@@ -7,11 +7,11 @@
   <div class="relative  h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="{{ url('Images\sampahAnorganik.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="{{ url('Images\Anorganik.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="{{ url('Images\sampahorganik.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="{{ url('Images\Organik.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       
   </div>
@@ -38,11 +38,19 @@
   <!--carousel end-->
   <!--card start-->
   <div class="pt-20 pl-64">
+<<<<<<< Updated upstream
     <a href="" class="relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
       <h1 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">"Selamat Datang di Tempat Solusi Pembersihan Rumah Anda!"</h1>
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Di sini, Anda akan menemukan solusi pembersihan profesional untuk kebutuhan rumah Anda</p> 
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Kami siap membantu Anda menghadirkan kebersihan dan kenyamanan di rumah Anda</p>
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Percayakan Tugas Bersih kepada Ahli Kami</p>
+=======
+    <a href="/order" class="relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
+      <h5 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Apakah anda tahu 2 jenis sampah diatas? </h5>
+      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black">Sampah diatas merupakan sampah organik dan anorganik </p>
+      <p class="text-center mt-6 ml-6 text-l font-bold tracking-tight text-gray-900 dark:text-black">Di CLEAN DE KOST anda dapat menukar sampah anorganik anda dengan pemotongan biaya jasa pembersihan kos anda</p>
+      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black">Klik Disini Untuk Memesan</p> 
+>>>>>>> Stashed changes
     </a>
    
   </div>
