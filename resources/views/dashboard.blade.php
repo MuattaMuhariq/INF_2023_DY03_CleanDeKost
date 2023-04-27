@@ -2,7 +2,7 @@
 <div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
   <!--carousel start-->
-<div id="default-carousel" class="relative w-4/5 ml-36 pt-20 drop-shadow-2xl" data-carousel="slide">
+  <div id="default-carousel" class="relative w-4/5 ml-36 pt-20 drop-shadow-2xl" data-carousel="slide">
   <!-- Carousel wrapper -->
   <div class="relative  h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
@@ -36,13 +36,13 @@
   </button>
 </div>
   <!--carousel end-->
-
   <!--card start-->
   <div class="pt-20 pl-64">
     <a href="" class="relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
-      <h5 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Apakah anda ingin kamar/rumah anda berserakan seperti diatas? </h5>
-      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black">Anda malas memebersihkannya? Clean De kost Solusinya</p>
-      <p class="text-center mt-6 ml-6 text-l font-bold tracking-tight text-gray-900 dark:text-black">Silahkan klik disini untuk daftar akun </p> 
+      <h1 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">"Selamat Datang di Tempat Solusi Pembersihan Rumah Anda!"</h1>
+      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Di sini, Anda akan menemukan solusi pembersihan profesional untuk kebutuhan rumah Anda</p> 
+      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Kami siap membantu Anda menghadirkan kebersihan dan kenyamanan di rumah Anda</p>
+      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Percayakan Tugas Bersih kepada Ahli Kami</p>
     </a>
    
   </div>
