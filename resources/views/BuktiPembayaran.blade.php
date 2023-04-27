@@ -36,13 +36,28 @@
             </div>
           </div>
           <div class="pt-4 flex items-center space-x-4">
-            <button class="bg-blue-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Upload Bukti Pembayaran</button>
+          <div class="d-flex justify-content-center gap-5">
+                  <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Upload()">Upload bukti pembayaran</button>
+                  
+                </div>
+              </div>
+            </div>
           </div>
-       
-        <div class="my-4 bg-gray-100 rounded-lg p-4">
-          <p class="text-gray-800 font-semibold">Bukti Pembayaran</p>
-          <p class="text-gray-600">Terima kasih telah melakukan pembayaran</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
   
+  <script>
+    function Upload() {
+      // logika untuk mengirim pesanan
+      alert("Bukti pembayaran berhasil di upload!");
+    }
+  </script>
+
+  </div>
+  </div>
             </div>
           </div>
         </div>
