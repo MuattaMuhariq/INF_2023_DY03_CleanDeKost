@@ -33,16 +33,26 @@
                         <div class="flex justify-center">
 
         <!--button Update harga-->
-            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                UPDATE HARGA
-            </button>
+            <div class="d-flex justify-content-center gap-5">
+                  <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Update()">Update</button>
+                  
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-</div>
-</div>
-</div>
+    </div>
+
+  
+  <script>
+    function Update() {
+      // logika untuk mengirim pesanan
+      alert("Pembayaran berhasil di update!");
+    }
+  </script>
+
 
 <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">

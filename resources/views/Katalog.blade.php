@@ -7,7 +7,7 @@
           <div class=" grid grid-cols-2 w-full h-full items-center justify-center">
 
           <a href="#" class="ml-16 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <img src="Images/ilustrasi-botol-air-kemasan-istock_ratio-16x9.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"/>
+            <img src="Images/ilustrasi-botol-air-kemasan-istock_ratio-16x9.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Botol Plastik <br />Rp. 200 /pcs </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Botol plastik ini merupakan sampah anorganik. Sampah ini jika dikumpulkan akan mendapatkan diskon sebesar Rp. 200/pcs</p>
@@ -15,7 +15,7 @@
           </a>  
             
           <a href="#" class="ml-24 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <img src="Images/TIPS-Yuk-Manfaatkan-Botol-Kaca-untuk-4-Hal-Ini.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"/>
+            <img src="Images/TIPS-Yuk-Manfaatkan-Botol-Kaca-untuk-4-Hal-Ini.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Botol Kaca <br />Rp. 300 /pcs</h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Botol kaca ini merupakan sampah anorganik. Sampah ini jika dikumpulkan akan mendapatkan diskon sebesar Rp. 300/pcs </p>
@@ -23,7 +23,7 @@
           </a>
               
           <a href="#" class="ml-16 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <img src="Images/sampah k.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"/>
+            <img src="Images/sampah k.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2"/>
             <div class="flex flex-col justify-between p-4 leading-normal">    
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kertas <br />Rp. 5000 /kg</h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kertas ini merupakan sampah organik. Sampah ini jika dikumpulkan akan mendapatkan diskon sebesar Rp. 5000/kg </p>
@@ -31,7 +31,7 @@
           </a>
 
           <a href="#" class="ml-24 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <img src="Images/besi.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"/>
+            <img src="Images/besi.jpg" class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-2"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Besi <br />Rp.4000 /kg</h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Besi ini merupakan sampah logam. Sampah ini jika dikumpulkan akan mendapatkan diskon sebesar Rp. 4000/kg </p>
