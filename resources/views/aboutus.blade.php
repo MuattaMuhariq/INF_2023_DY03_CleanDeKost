@@ -18,7 +18,8 @@
                 <div class="w-full lg:w-5/12 flex flex-col justify-center">
                     <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-black dark:text-black pb-4">Our Story</h1>
                     <p class="font-normal text-base leading-6 text-black dark:text-black">
-                        Website
+                        Kelompok 3 ini kami beri nama Clean de kost Dimana pada kelompok ini terdiri dari beberapa anggota dan diketuai oleh Muatta Muhariq 
+                        Projek ini kami beri nama clean de kost karena berdasarkan dari jasa pembersihan kos yang dimana Ide ini muncul berdasarkan tema yang diberi oleh dosen pengampu dengan tema sampah.
                     </p>
                 </div>
                 <div class="w-full lg:w-8/12 lg:pt-8">
@@ -35,6 +36,10 @@
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
                             <img class="md:block hidden" src="Images/hadija.jpg" alt="Hadija featured Image" />
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Hadija</p>
+                        </div>
+                        <div class="p-4 pb-6 flex justify-center flex-col items-center">
+                            <img class="md:block hidden" src="Images/Rayyan.JPG" alt="Rayyan featured image" />
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rayyan</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
                             <img class="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured image" />

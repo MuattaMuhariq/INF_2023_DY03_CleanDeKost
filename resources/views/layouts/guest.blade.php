@@ -44,15 +44,16 @@
         <div class="h-screen w-screen relative overflow-hidden bg-center bg-cover " style="background-image: url(/Images/pexels-huseyn-kamaladdin-667838.jpg)">
         <div class="h-screen w-screen backdrop-blur-sm ">           
             <div class="flex justify-center m-auto pt-28">
-            <div class="flex justify-center pt-20 pb-10 w-1/3  bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class="flex justify-center pt-10 pb-10 w-1/4 mb-10  bg-white shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
             
         </div>
-        <!--Footer container-->
-<footer class="bg-sky-600 mt-2 text-center text-white relative inset-x-0 bottom-0">
-  <div class="container px-6 pt-6 relative inset-x-0 bottom-0">
-    <div class="mb-1 flex justify-center">
+
+<!--Footer container-->
+<footer class="bg-sky-600 mt-2 text-center text-white fixed inset-x-0 bottom-0">
+  <div class="container px-6 pt-6">
+    <div class="mb-6 flex justify-center">
   <a
         href="#!"
         type="button"
@@ -71,7 +72,7 @@
 
 
       <a
-        href=""
+        href="#!"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -87,7 +88,7 @@
       </a>
 
       <a
-        href="https://github.com/MuattaMuhariq/RPL2023.git  "
+        href="#!"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -114,8 +115,3 @@
     >
   </div>
 </footer>
-        </div>
-        
-
-    </body>
-</html>

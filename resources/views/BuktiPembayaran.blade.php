@@ -1,15 +1,16 @@
 <x-app-layout>
-<div class="relative overflow-hidden bg-[url('../../public/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
+<div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
+
     <!-- bukti pembayaran -->
 <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-    <div class="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow rounded-3xl sm:p-10">
+    <div class="relative px-4 py-10 bg-white mx-auto md:mx-0 shadow rounded-3xl sm:p-10">
       <div class="max-w-md mx-auto">
         <div class="flex items-center space-x-5">
           <div class="h-14 w-14 bg-blue-200 rounded-full flex flex-shrink-0 justify-center items-center text-blue-500 text-2xl font-mono">U</div>
           <div class="block pl-2 font-semibold text-xl self-start text-gray-700">
-            <h2 class="leading-relaxed">Upload Bukti Pembayaran</h2>
+            <h1 class="text-2xl font-bold leading-relaxed">Upload Bukti Pembayaran</h1>
             <p class="text-sm text-gray-500 font-normal leading-relaxed">Silakan upload bukti pembayaran Anda disini.</p>
           </div>
         </div>
@@ -35,13 +36,33 @@
             </div>
           </div>
           <div class="pt-4 flex items-center space-x-4">
-            <button class="bg-blue-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Upload Bukti Pembayaran</button>
+          <div class="d-flex justify-content-center gap-5">
+                  <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Upload()">Upload bukti pembayaran</button>
+                  
+                </div>
+              </div>
+            </div>
           </div>
-       
+        </div>
+      </div>
+    </div>
+    </div>
 
-<div class="my-4 bg-gray-100 rounded-lg p-4">
-  <p class="text-gray-800 font-semibold">Bukti Pembayaran</p>
-  <p class="text-gray-600">Terima kasih telah melakukan pembayaran</p>
+  
+  <script>
+    function Upload() {
+      // logika untuk mengirim pesanan
+      alert("Bukti pembayaran berhasil di upload!");
+    }
+  </script>
+
+  </div>
+  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 <!--Footer container-->
@@ -109,4 +130,5 @@
     >
   </div>
 </footer>
+
 </x-app-layout>

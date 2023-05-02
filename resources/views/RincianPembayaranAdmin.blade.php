@@ -4,10 +4,9 @@
 
   <!-- rincian pembayaran admin -->    
 <div class="container mx-auto ml-40">
-        <div class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h1 class="text-2xl text-white
              font-bold mb-4 ml-40">Rincian Pembayaran</h1>
-            <div class="flex flex-wrap -mx-2">
+            <div class="flex flex-wrap mx-2">
                 <div class="w-full lg:w-1/2 px-2 mb-4">
                 <div class="container mx-auto ml-40">
                   <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
@@ -32,13 +31,30 @@
                         <div class="mb-4">
                             
                         <div class="flex justify-center">
+
         <!--button Update harga-->
-            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                UPDATE HARGA
-            </button>
+            <div class="d-flex justify-content-center gap-5">
+                  <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Update()">Update</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
-       <!--Footer container-->
+  
+  <script>
+    function Update() {
+      // logika untuk mengirim pesanan
+      alert("Pembayaran berhasil di update!");
+    }
+  </script>
+
+
+<!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
@@ -103,4 +119,5 @@
     >
   </div>
 </footer>
+
 </x-app-layout>

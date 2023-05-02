@@ -45,15 +45,15 @@
           <!-- Alamat -->
           <div class="mt-4">
             <x-input-label for="Alamat" :value="__('Alamat')" />
-            <x-text-input id="Alamat" class="block mt-1 w-full" type="text" name="Alamat" :value="old('Alamat')" required autocomplete="username" />
+            <x-text-input id="Alamat" class="block mt-1 w-full" type="text" name="Alamat" :value="old('Alamat')" required autocomplete="username"/>
             <x-input-error :messages="$errors->get('Alamat')" class="mt-2" />
         </div>
 
                   <!-- No Hp -->
                   <div class="mt-4">
             <x-input-label for="No Hp" :value="__('No Hp')" />
-            <x-text-input id="No Hp" class="block mt-1 w-full" type="text" name="No Hp" :value="old('No HP')" required autocomplete="username" />
-            <x-input-error :messages="$errors->get('No Hp')" class="mt-2" />
+            <x-text-input id="No Hp" class="block mt-1 w-full" type="text" name="NoHp" :value="old('NoHP')" required autocomplete="username" />
+            <x-input-error :messages="$errors->get('NoHp')" class="mt-2" />
         </div>
 
 
