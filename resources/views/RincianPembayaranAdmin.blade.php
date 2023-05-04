@@ -23,7 +23,7 @@
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
                         <p class="mb-2"><span class="font-semibold">Besi :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
-  </div>
+  
                         <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
                        
@@ -32,10 +32,79 @@
                             
                         <div class="flex justify-center">
 
-        <!--button Update harga-->
-            <div class="d-flex justify-content-center gap-5">
-                  <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Update()">Update</button>
-                  
+       
+            <!-- button -->
+            <div class="mb-4">
+                        <div class="flex justify-center">
+                            
+                        <div class="d-flex justify-content-center gap-5">
+
+    <button class="bg-blue-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-purple-600
+    focus:outline-none focus:ring-2 focus:ring-green-300" id="open-btn">
+        Update
+    
+</div>
+
+<!---Modal -->
+<div class="fixed hidden  insert-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
+<div class="relative insert-0 mx-auto p-5 border w-1/3 shadow-lg rounded-md bg-white">
+    <div class="mt-3 text-center">
+        <div class="mx-auto flex justify-center flex items-center justify-center h-12 w-12 rounded-full bg-purple-100">
+            <svg class="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 20 20">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                </path>
+            </svg>
+            </div>
+        <h3 class="text-lg leading-6 font-medium text-gray-900">Sukses</h3>
+        <div class="mt-2 px-7 py-3">
+            <p class="text-sm text-gray-500">Pembayaran telah berhasil di update!</p>
+</div>
+        <div class="items-center px-4 py-3">
+            <button id="ok-btn" class="px-4 py-2 bg-blue-500 text-white
+                            text-base font-medium rounded-md w-full
+                            shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                OK
+            </button>
+
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
+<style>
+  #modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  </style>
+
+<script>
+  let modal = document.getElementById('modal');
+   let btn = document.getElementById('open-btn');
+    let button = document.getElementById('ok-btn');
+
+    btn.onclick = function () {
+            modal.style.display = 'block';
+        };
+
+        button.onclick = function () {
+            modal.style.display = 'none';
+        };
+
+window.onclick = function (event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+</script>
+</buttton>
+
                 </div>
               </div>
             </div>
@@ -43,17 +112,11 @@
         </div>
       </div>
     </div>
-    </div>
+</div>
+</div>
+</div>
 
   
-  <script>
-    function Update() {
-      // logika untuk mengirim pesanan
-      alert("Pembayaran berhasil di update!");
-    }
-  </script>
-
-
 <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
