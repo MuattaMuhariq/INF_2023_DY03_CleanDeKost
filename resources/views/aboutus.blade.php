@@ -42,9 +42,8 @@
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rayyan</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img class="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured image" />
-                            <img class="md:hidden block" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Elijah</p>
+                            <img class="md:block hidden" src="Images/rendika.jpeg" alt="Rendika featured image" />
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rendika</p>
                         </div>
                     </div>
                 </div>
