@@ -8,82 +8,34 @@
                 <div class="flex items-center gap-x-3">
                     <h1 class="text-2xl font-bold mb-4">Pesanan Masuk</h1>
                  </div>
-                <div class="overflow-y-auto h-70">
-                    <div class="px-3 py-4 flex justify-center">
-                        <table class="w-full text-md bg-gray-400 shadow-md rounded mb-4">
-                            <tbody>
-                                <tr class="border-b sticky top-0 bg-gray-400">
-                                    <th class="text-left p-3 px-5 ml-10">Nama</th>
-                                        <th class="text-left p-3 px-5">Tanggal</th>
-                                </tr>
-                                <tr class="border-b hover:bg-gray-100 bg-gray-100">
-                                    <td class="px-12 py-4 ml-10 text-sm font-medium whitespace-nowrap">
-                                        <div>
-                                             User.name
-                                        </div>
-                                     </td>
-                                    <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                        <div>
-                                             02/02/2023
-                                        </div>
-                                    </td>
-                                    <td class="p-3 px-5 flex justify-end">
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Proses</button>
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Selesai</button>
-                                    </td>
-                                </tr>
-                                <tr class="border-b hover:bg-gray-100 bg-gray-100">
-                                    <td class="px-12 py-4 ml-10 text-sm font-medium whitespace-nowrap">
-                                        <div>
-                                            User.name
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                        <div>
-                                            02/02/2023
-                                        </div>
-                                    </td>
-                                    <td class="p-3 px-5 flex justify-end">
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Proses</button>
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Selesai</button>
-                                    </td>
-                                </tr>
-                                <tr class="border-b hover:bg-gray-100 bg-gray-100">
-                                    <td class="px-12 py-4 ml-10 text-sm font-medium whitespace-nowrap">
-                                        <div>
-                                            User.name
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                        <div>
-                                            02/02/2023
-                                        </div>
-                                    </td>
-                                    <td class="p-3 px-5 flex justify-end">
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Proses</button>
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Selesai</button>
-                                    </td>
-                                </tr>
-                                <tr class="border-b hover:bg-gray-100 bg-gray-100">
-                                    <td class="px-12 py-4 ml-10 text-sm font-medium whitespace-nowrap">
-                                        <div>
-                                            User.name
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm whitespace-nowrap">
-                                        <div>
-                                            02/02/2023
-                                        </div>
-                                    </td>
-                                    <td class="p-3 px-5 flex justify-end">
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Proses</button>
-                                        <button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-2 px-3 mt-1/2 rounded focus:outline-none focus:shadow-outline">Selesai</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <!-- component -->
+<div class="text-gray-900 bg-gray-200">
+    <div class="p-4 flex">
+       
+    </div>
+    <div class="px-3 py-4 flex justify-center">
+        <table class="w-full text-md bg-white shadow-md rounded mb-4">
+            <tbody>
+                <tr class="border-b">
+                    <th class="text-left p-3 px-5">Nama</th>
+                    <th class="text-left p-3 px-5">Waktu&Tanggal</th>
+                    <th class="text-left p-3 px-5">Alamat</th>
+                    <th class="text-left p-3 px-5">No.HP</th>
+
+                    <th></th>
+                </tr>
+                <tr class="border-b hover:bg-orange-100 bg-gray-100">
+                    <td class="p-3 px-5 bg-transparent">username</td>
+                    <td class="p-3 px-5 bg-transparent">waktu&tanggal</td>
+                    <td class="p-3 px-5 bg-transparent">alamat</td>
+                    <td class="p-3 px-5 bg-transparent">No.HP</td>
+                    <td class="p-3 px-5 flex justify-end"><button type="button" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">PROSES</button>
+                    <button type="button" class="text-sm bg-green-500 hover:bg-green-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">SELESAI</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
                 <div>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-10 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
                     Next
