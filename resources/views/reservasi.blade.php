@@ -25,23 +25,29 @@
                 <label class="block text-gray-700 font-bold mb-2 pt-3" for="address">
                   Alamat
                 </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan alamat tempat dibersihkan">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan alamat tempat dibersihkan"></input>
              </div>
             <div class="mb-4">
-                <label class="block text-gray-700 font-bold mb-2" for="message">
-                  Note
+                <label class="block text-gray-700 font-bold mb-2" for="phone">
+                  No.Hp
                 </label>
-                <textarea class="shadow appearance-none border rounded w-full py-5 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="3" placeholder="Masukkan bagian apa saja yang perlu dibersihkan"></textarea>
+                <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan nomor hp"></input>
             </div>
-            <div>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" type="button">
-                  Pesan
-                </button>
+              <!--<div class= "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right">-->
+              <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" onclick="Pesan()">Pesan</button>
+            </div>
             </div>
         </div>
     </div>
   </div>
 </div>
+
+<script>
+    function Pesan() {
+      // logika untuk mengirim pesanan
+      alert("Pesanan anda diterima!");
+    }
+  </script>
 <!--Footer container-->
 <footer class="bg-sky-600 mt-2 text-center text-white">
   <div class="container px-6 pt-6">
