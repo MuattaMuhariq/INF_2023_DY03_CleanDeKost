@@ -9,7 +9,7 @@
                     pemesanan online.Website ini juga menyediakan penukaran barang 
                     bekas yang memiliki nilai harga jual yang kami beli dan kami tukarkan ke pemotongan harga jasa kami</p>
                 </div>
-                <div class="w-full lg:w-8/12">
+                <div class="w-200 h-200 pr-40">
                     <img class="w-full h-full" src="/Images/24650.png" alt="A group of People" />
                 </div>
             </div>
@@ -22,30 +22,59 @@
                         Projek ini kami beri nama clean de kost karena berdasarkan dari jasa pembersihan kos yang dimana Ide ini muncul berdasarkan tema yang diberi oleh dosen pengampu dengan tema sampah.
                     </p>
                 </div>
-                <div class="w-full lg:w-8/12 lg:pt-8">
-                    <div class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
-                        <div class="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img class="md:block hidden" src="Images/Futsal.jpeg" alt="Muatta featured Image" />
-                            <!-- <img class="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Image" /> -->
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Muatta</p>
+                <!-- <div class="w-full lg:w-8/12 lg:pt-8">
+                    <div class="grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md place-content-center justify-items-center">
+                        <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black">
+                            <img class="md:block hidden" src="Images/poto.jpeg" alt="Muatta featured Image" />
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Muatta</p>
                         </div>
-                        <div class="p-4 pb-6 flex justify-center flex-col items-center">
+                        <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black">
                             <img class="md:block hidden" src="Images/tasya.jpeg" alt="tasya featured Image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Tasya</p>
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Tasya</p>
                         </div>
-                        <div class="p-4 pb-6 flex justify-center flex-col items-center">
+                        <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black">
                             <img class="md:block hidden" src="Images/hadija.jpg" alt="Hadija featured Image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Hadija</p>
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Hadija</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
                             <img class="md:block hidden" src="Images/Rayyan.JPG" alt="Rayyan featured image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rayyan</p>
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rayyan</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
                             <img class="md:block hidden" src="Images/rendika.jpeg" alt="Rendika featured image" />
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rendika</p>
                         </div>
                     </div>
+                </div> -->
+                <div class="w-full lg:w-8/12 lg:pt-8">
+                  <div class="flex flex-col gap-4 items-center justify-center">
+                    <div class="flex flex-row gap-10">
+                      <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
+                          <img class="md:block hidden w-[150px] h-[200px]" src="Images/poto.jpeg" alt="Muatta featured Image" />
+                          <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rendika</p>
+                      </div>
+                      <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
+                        <img class="md:block hidden w-[150px] h-[200px]" src="Images/tasya.jpeg" alt="tasya featured Image" />
+                        <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Tasya</p>
+                      </div>
+                    </div>
+                    <div class="flex flex-row gap-10">
+                      <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
+                        <img class="md:block hidden w-[150px] h-[200px]" src="Images/poto.jpeg" alt="Rendika featured image" />
+                        <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Muatta</p>
+                      </div>
+                    </div>
+                    <div class="flex flex-row gap-10">
+                      <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
+                        <img class="md:block hidden w-[150px] h-[200px]" src="Images/hadija.jpg" alt="Hadija featured Image" />
+                        <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Hadija</p>
+                      </div>
+                      <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
+                        <img class="md:block hidden w-[150px] h-[200px]" src="Images/Rayyan.JPG" alt="Rayyan featured image" />
+                        <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rayyan</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -55,7 +84,7 @@
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
   <a
-        href="#!"
+        href="https://twitter.com/muattamuhariq?s=21&t=TLLrHPOl3o3dOjfKQ6qVyQ"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -72,7 +101,7 @@
 
 
       <a
-        href="#!"
+        href="https://www.instagram.com/muatta_/"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -88,7 +117,7 @@
       </a>
 
       <a
-        href="#!"
+        href="https://github.com/MuattaMuhariq/INF_2023_DY03_CleanDeKost"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
