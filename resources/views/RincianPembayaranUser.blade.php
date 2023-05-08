@@ -11,8 +11,6 @@
                     <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
                         <p class="mb-2"><span class="font-bold">Nama:</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Masukkan nama Anda">
-                        <p class="mb-2"><span class="font-bold">Total:</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga">
                         <p class="mb-2"><span class="font-bold">Alamat:</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda">
                         <p class="mb-2"><span class="font-bold">Total Diskon Sampah:</span>
@@ -51,7 +49,7 @@
 <div class="fixed hidden  insert-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
 <div class="relative insert-0 mx-auto p-5 border w-1/3 shadow-lg rounded-md bg-white">
     <div class="mt-3 text-center">
-        <div class="mx-auto flex justify-center flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
+        <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
             <svg class="h-6 w-6 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 20 20">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                 </path>

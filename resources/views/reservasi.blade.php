@@ -46,6 +46,7 @@
     function Pesan() {
       // logika untuk mengirim pesanan
       alert("Pesanan anda diterima!");
+      icon:'Succes'
     }
   </script>
 <!--Footer container-->

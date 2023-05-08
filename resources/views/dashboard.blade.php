@@ -13,11 +13,15 @@
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="{{ url('Images\Organik.jpg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="{{ url('Images\poto.jpeg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
       
   </div>
   <!-- Slider indicators -->
   <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-3 left-1/2">
       <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
       <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
       
   </div>
@@ -38,19 +42,13 @@
   <!--carousel end-->
   <!--card start-->
   <div class="pt-20 pl-64">
-<<<<<<< Updated upstream
-    <a href="" class="relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
-      <h1 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">"Selamat Datang di Tempat Solusi Pembersihan Rumah Anda!"</h1>
+
+    <a href="" class=" indent-8 relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
+      <h1 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">"Selamat Datang di Clean De kost Tempat Solusi Pembersihan Rumah Anda!"</h1>
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Di sini, Anda akan menemukan solusi pembersihan profesional untuk kebutuhan rumah Anda</p> 
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Kami siap membantu Anda menghadirkan kebersihan dan kenyamanan di rumah Anda</p>
       <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black"> Percayakan Tugas Bersih kepada Ahli Kami</p>
-=======
-    <a href="/order" class="relative w-3/4 h-56 block w-sm bg-white border border-gray-200 rounded-lg drop-shadow-2xl hover:bg-gray-100 dark:bg-white dark:border-gray-800 dark:hover:bg-gray-800">
-      <h5 class=" text-center mt-6 ml-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Apakah anda tahu 2 jenis sampah diatas? </h5>
-      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black">Sampah diatas merupakan sampah organik dan anorganik </p>
-      <p class="text-center mt-6 ml-6 text-l font-bold tracking-tight text-gray-900 dark:text-black">Di CLEAN DE KOST anda dapat menukar sampah anorganik anda dengan pemotongan biaya jasa pembersihan kos anda</p>
-      <p class="text-center mt-6 ml-6 text-xl font-bold tracking-tight text-gray-900 dark:text-black">Klik Disini Untuk Memesan</p> 
->>>>>>> Stashed changes
+
     </a>
    
   </div>
@@ -61,7 +59,7 @@
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
   <a
-        href="#!"
+        href="https://twitter.com/muattamuhariq?s=21&t=TLLrHPOl3o3dOjfKQ6qVyQ"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -78,7 +76,7 @@
 
 
       <a
-        href="#!"
+        href="https://www.instagram.com/muatta_/"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -94,7 +92,7 @@
       </a>
 
       <a
-        href="#!"
+        href="https://github.com/MuattaMuhariq/INF_2023_DY03_CleanDeKost"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
