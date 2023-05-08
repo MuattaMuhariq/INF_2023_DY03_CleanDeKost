@@ -8,7 +8,7 @@
     <div class="relative px-4 py-10 bg-white mx-auto md:mx-0 shadow rounded-3xl sm:p-10">
       <div class="max-w-md mx-auto">
         <div class="flex items-center space-x-5">
-          <div class="h-14 w-14 bg-blue-200 rounded-full flex flex-shrink-0 justify-center items-center text-blue-500 text-2xl font-mono">U</div>
+          <div class="h-14 w-14 bg-blue-200 rounded-full flex flex-shrink-0 justify-center items-center text-blue-500 text-2xl font-mono"><img src="{{ url('Images\24650.png') }}" alt=""></div>
           <div class="block pl-2 font-semibold text-xl self-start text-gray-700">
             <h1 class="text-2xl font-bold leading-relaxed">Upload Bukti Pembayaran</h1>
             <p class="text-sm text-gray-500 font-normal leading-relaxed">Silakan upload bukti pembayaran Anda disini.</p>
@@ -22,7 +22,7 @@
             </div>
             <div class="flex flex-col">
               <label class="leading-loose">Upload Bukti Pembayaran</label>
-              <div class="relative border-dotted h-48 rounded-lg border-dashed border-2 border-blue-700 bg-gray-100 flex justify-center items-center">
+              <div class="relative h-48 rounded-lg border-dashed border-2 border-blue-700 bg-gray-100 flex justify-center items-center">
                 <div class="absolute">
                   <div class="flex flex-col items-center">
                     <i class="fa fa-cloud-upload fa-3x text-blue-700"></i>

@@ -41,8 +41,8 @@
                             <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rayyan</p>
                         </div>
                         <div class="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img class="md:block hidden" src="Images/rendika.jpeg" alt="Rendika featured image" />
-                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Rendika</p>
+                            <img class="md:block hidden " src="Images/poto.jpeg" alt="Rendika featured image" />
+                            <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rendika</p>
                         </div>
                     </div>
                 </div> -->
@@ -50,7 +50,7 @@
                   <div class="flex flex-col gap-4 items-center justify-center">
                     <div class="flex flex-row gap-10">
                       <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">
-                          <img class="md:block hidden w-[150px] h-[200px]" src="Images/poto.jpeg" alt="Muatta featured Image" />
+                          <img class="md:block hidden w-[150px] h-[200px]" src="Images/rendika.jpeg" alt="Rendika featured Image" />
                           <p class="font-medium text-xl leading-5 text-gray-800 dark:text-black mt-4">Rendika</p>
                       </div>
                       <div class="p-4 pb-6 flex justify-center flex-col items-center border-4 border-black w-fit">

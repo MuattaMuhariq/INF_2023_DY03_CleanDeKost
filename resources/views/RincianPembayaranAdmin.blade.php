@@ -10,10 +10,8 @@
                 <div class="w-full lg:w-1/2 px-2 mb-4">
                 <div class="container mx-auto ml-40">
                   <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
-                        <p class="mb-2"><span class="font-semibold">Total Harga Awal :</span>
+                        <p class="mb-2"><span class="font-semibold">Total Harga</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
-                        <p class="mb-2"><span class="font-semibold">Diskon</span>
-
                 <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                         <p class="mb-2"><span class="font-semibold">Botol Plastik :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah (pcs)">
@@ -23,7 +21,8 @@
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
                         <p class="mb-2"><span class="font-semibold">Besi :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
-  
+                        <p class="mb-2"><span class="font-semibold">Diskon Penukaran Sampah </span>
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
                         <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
                        
@@ -31,13 +30,6 @@
                         <div class="mb-4">
                             
                         <div class="flex justify-center">
-
-       
-            <!-- button -->
-            <div class="mb-4">
-                        <div class="flex justify-center">
-                            
-                        <div class="d-flex justify-content-center gap-5">
 
     <button class="bg-blue-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-purple-600
     focus:outline-none focus:ring-2 focus:ring-green-300" id="open-btn">
@@ -49,7 +41,7 @@
 <div class="fixed hidden  insert-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
 <div class="relative insert-0 mx-auto p-5 border w-1/3 shadow-lg rounded-md bg-white">
     <div class="mt-3 text-center">
-        <div class="mx-auto flex justify-center flex items-center justify-center h-12 w-12 rounded-full bg-purple-100">
+        <div class="mx-auto justify-center flex items-center h-12 w-12 rounded-full bg-purple-100">
             <svg class="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 20 20">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                 </path>
