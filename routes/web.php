@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\PembayaranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +27,7 @@ Route::get('admin', function () {
 });
 
 //untuk redirect ke home pakai home controller
-Route::get('/redirects',[HomeController::class,'index']);
+Route::get('/redirects', [HomeController::class, 'index']);
 
 Route::get('/login', function () {
     return view('auth.login');
@@ -43,27 +45,24 @@ Route::get('/katalog', function () {
     return view('Katalog');
 });
 
-Route::get('/historyproses', function () {
-    return view('historyproses');
-});
+Route::get('/history',[AdminController::class, 'history'] )->name('history');
 
 Route::get('/historyselesai', function () {
     return view('historyselesai');
 });
-Route::get('/adminpesananmasuk', function () {
-    return view('adminpesananmasuk');
-});
+Route::get('/adminpesananmasuk', [AdminController::class, 'index'])->name('admin.pesanan');
 Route::get('/order', function () {
     return view('reservasi');
 });
 
-Route::get('/RincianPembayaranAdmin', function () {
+Route::post('/order/store',[OrderController::class, 'store'])->name('order.store');
+Route::post('/pembayaran/store',[PembayaranController::class, 'store'])->name('pembayaran.store');
+
+Route::get('/RincianPembayaranAdmin/{id}', function ($id) {
     return view('RincianPembayaranAdmin');
 });
 
-Route::get('/RincianPembayaranUser', function () {
-    return view('RincianPembayaranUser');
-});
+Route::get('/RincianPembayaranUser', [PembayaranController::class, "pembayaran"]);
 
 Route::get('/BuktiPembayaran', function () {
     return view('BuktiPembayaran');
