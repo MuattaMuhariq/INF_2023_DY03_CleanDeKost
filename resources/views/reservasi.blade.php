@@ -3,50 +3,57 @@
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
   <!-- form reservasi -->
+  <form action="{{ route('order.store') }}" method="post">
+    @csrf
     <div class="overflow-hidden bg-gray-100 sm:rounded-xl relative w-1/2 ml-50% mb-40 drop-shadow-2xl container px-4 mx-auto">
         <div class="container mx-auto">
                 <h1 class="text-2xl font-bold mb-4">Form Reservasi Layanan Pembersihan</h1>
         </div>
         <div class="px-4 py-5 sm:px-6">
             <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2 pt-3" for="address">
+                  Nama
+                </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nama" type="text" name="nama" placeholder="Masukkan Nama Pemesan"></input>
+            </div>
+            <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="time and date">
                     Waktu dan Tanggal Pengerjaan
-                 </label>
+                </label>
             </div>
             <div class="flex">
                 <div class="w-1/2 pr-2">
-                      <input id="time" type="time" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
-                </div>
-                <div class="w-1/2 pl-2">
-                      <input id="date" type="date" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                      <input id="waktu" type="time" name="waktu" waktu class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+            </div>
+            <div class="w-1/2 pl-2">
+                      <input id="tanggal" type="date" name="tanggal" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                 </div>
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2 pt-3" for="address">
                   Alamat
                 </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan alamat tempat dibersihkan"></input>
-             </div>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="alamat" name="alamat" type="text" placeholder="Masukkan alamat tempat dibersihkan"></input>
+            </div>
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="phone">
                   No.Hp
                 </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="addess" type="text" placeholder="Masukkan nomor hp"></input>
+                <input class="shadow appearance-none border rounded w-full py-2 px-5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="NoHp" type="text" name="NoHp" placeholder="Masukkan nomor hp"></input>
             </div>
               <!--<div class= "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right">-->
-              <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right" id="open-btn" onclick="Pesan()">Pesan</button>
-            </div>
-            </div>
-        </div>
+              <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-10 rounded focus:outline-none focus:shadow-outline float-right"  id="open-btn" onclick="Pesan()">Pesan</button>
+          </div>
     </div>
   </div>
 </div>
+</form>
 
 <!---Modal -->
 <div class="fixed hidden  insert-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
   <div class="relative insert-0 mx-auto p-5 border w-1/3 shadow-lg rounded-md bg-white">
       <div class="mt-3 text-center">
-          <div class="mx-auto flex justify-center flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
+          <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
               <svg class="h-6 w-6 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 20 20">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                   </path>
@@ -57,11 +64,11 @@
               <p class="text-sm text-gray-500">Pesanan anda telah diterima!</p>
   </div>
           <div class="items-center px-4 py-3">
-              <button id="ok-btn" class="px-4 py-2 bg-blue-500 text-white
+              <a href="{{ route('history') }}" id="ok-btn" class="px-4 py-2 bg-blue-500 text-white
                               text-base font-medium rounded-md w-full
                               shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
                   OK
-              </button>
+</a>
   
           </div>
       

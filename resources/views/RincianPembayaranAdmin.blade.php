@@ -2,40 +2,42 @@
 <div class="relative overflow-hidden bg-[url('/Images/pexels-huseyn-kamaladdin-667838.jpg')] bg-center bg-cover">
   <div class="flex flex-col justify-center min-h-screen backdrop-blur-sm">
 
-  <!-- rincian pembayaran admin -->    
+  <!-- rincian pembayaran admin -->  
+<form action="{{ route('pembayaran.store') }}" method="post"> 
+@csrf
 <div class="container mx-auto ml-40">
             <h1 class="text-2xl text-white
-             font-bold mb-4 ml-40">Rincian Pembayaran</h1>
+            font-bold mb-4 ml-40">Rincian Pembayaran</h1>
             <div class="flex flex-wrap mx-2">
                 <div class="w-full lg:w-1/2 px-2 mb-4">
                 <div class="container mx-auto ml-40">
                   <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
                         <p class="mb-2"><span class="font-semibold">Total Harga</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="totalharga" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
                 <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                         <p class="mb-2"><span class="font-semibold">Botol Plastik :</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah (pcs)">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="botolplastik" id="weight" type="number" placeholder="Masukkan jumlah (pcs)">
                         <p class="mb-2"><span class="font-semibold">Botol Kaca :</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" placeholder="Masukkan jumlah  (pcs)">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="botolkaca" id="weight" type="number" placeholder="Masukkan jumlah  (pcs)">
                         <p class="mb-2"><span class="font-semibold">Kertas :</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="kertas" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
                         <p class="mb-2"><span class="font-semibold">Besi :</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="besi" id="weight" type="number" step="0.1" placeholder="masukkan jumlah (kg)">
                         <p class="mb-2"><span class="font-semibold">Diskon Penukaran Sampah </span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="diskon" id="total harga awal" type="number" placeholder="Masukkan total harga layanan kebersihan">
                         <p class="mb-2"><span class="font-semibold">Total Harga Setelah Diskon :</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
-                       
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="hargadiskon" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga layanan kebersihan">
+          
                         
                         <div class="mb-4">
                             
                         <div class="flex justify-center">
 
-    <button class="bg-blue-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-purple-600
+    <button class="bg-blue-500 flex  text-white rounded-md px-8 py-2 text-base font-medium hover:bg-purple-6009
     focus:outline-none focus:ring-2 focus:ring-green-300" id="open-btn">
         Update
-    
 </div>
+</form>
 
 <!---Modal -->
 <div class="fixed hidden  insert-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
