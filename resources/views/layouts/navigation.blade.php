@@ -9,7 +9,8 @@
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
                 </div>
-
+                @Auth
+                @if (Auth()->User()->role=='0')
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-sky-600  left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                         <li class="mx- my-8 ">
@@ -28,6 +29,10 @@
                           <a href="/dashboard" class="text-lg hover:text-[#426A4E] duration-500">Halaman Utama</a>
                         </li>
                 </div>
+                @else
+                    
+                @endif 
+                @endAuth
             </div>
 
             <!-- Settings Dropdown -->
