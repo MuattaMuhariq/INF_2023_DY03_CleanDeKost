@@ -44,7 +44,7 @@
         <div class="h-screen w-screen relative overflow-hidden bg-center bg-cover " style="background-image: url(/Images/pexels-huseyn-kamaladdin-667838.jpg)">
         <div class="h-screen w-screen backdrop-blur-sm ">           
             <div class="flex justify-center m-auto pt-28">
-            <div class="flex justify-center pt-10 pb-10 w-1/4 mb-10  bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class="flex justify-center pb-20 w-1/4 mb-10  bg-white shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
             

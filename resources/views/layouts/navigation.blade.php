@@ -17,7 +17,7 @@
                           <a href="/order" class="text-lg hover:text-[#426A4E] duration-500">Order</a>
                         </li>
                         <li class="mx-8 my-8 ">
-                          <a href="/historyproses" class="text-lg hover:text-[#426A4E] duration-500">History</a>
+                          <a href="/history" class="text-lg hover:text-[#426A4E] duration-500">History</a>
                         </li>
                         <li class="mx-4 my-8 ">
                           <a href="/aboutus" class="text-lg hover:text-[#426A4E] duration-500">About Us</a>
