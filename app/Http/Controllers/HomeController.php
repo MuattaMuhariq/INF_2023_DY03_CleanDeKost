@@ -13,18 +13,18 @@ class HomeController extends Controller
         // jika role dia merupakan user
         if ($role=='0'){
 
-            return view('dashboard');
+            return redirect()->route('dashboard');
         }
 
         //jika role dia merupakan admin
         if ($role=='1'){
 
-            return view('adminpesananmasuk');
+            return redirect()->route('admin.pesanan');
         }
 
         else {
 
-            return view('dashboard');
+            return redirect()->route('dashboard');
         }
    }
 }
