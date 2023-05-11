@@ -10,13 +10,21 @@
                 <div class="container mx-auto ml-40">
                     <div class="bg-gray-200 rounded px-8 pt-6 pb-8 mb-4">
                         <p class="mb-2"><span class="font-bold">Nama:</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Masukkan nama Anda">
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="nama" type="text" placeholder="Masukkan nama Anda" value="Muatta">
                         <p class="mb-2"><span class="font-bold">Alamat:</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda">
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda" value="Lingke">
+                        <p class="mb-2"><span class="font-bold">Botol Plastik</span>
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda" value="{{ $Pembayaran[0]->botolplastik }}">
+                        <p class="mb-2"><span class="font-bold">Botol kaca</span>
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda" value="{{ $Pembayaran[0]->botolkaca }}">
+                        <p class="mb-2"><span class="font-bold">Kertas</span>
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda" value="{{ $Pembayaran[0]->kertas }}">
+                        <p class="mb-2"><span class="font-bold">Besi</span>
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan Alamat Anda" value="{{ $Pembayaran[0]->besi }}">
                         <p class="mb-2"><span class="font-bold">Total Diskon Sampah:</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total diskon untuk layanan kebersihan Anda">
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total" type="text" placeholder="Masukkan total diskon untuk layanan kebersihan Anda"value="{{ $Pembayaran[0]->diskon }}">
                         <p class="mb-2"><span class="font-bold">Total Harga:</span>
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga">
+                        <input disabled class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" id="total harga setelah diskon" type="number" placeholder="Masukkan total harga"value="{{ $Pembayaran[0]->hargadiskon}}">
                         <div class="mb-4">
 
             <span class="text-black font-bold">Metode Pembayaran</span>
@@ -60,7 +68,7 @@
             <p class="text-sm text-gray-500">Metode pembayaran berhasil dipilih!</p>
 </div>
         <div class="items-center px-4 py-3">
-        <a href="/BuktiPembayaran"> <button id="ok-btn" class="px-4 py-2 bg-blue-500 text-white
+        <a href="/dashboard"> <button id="ok-btn" class="px-4 py-2 bg-blue-500 text-white
                             text-base font-medium rounded-md w-full
                             shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300">
                 OK
